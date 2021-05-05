@@ -42,7 +42,7 @@
 
 <div class="container">
 
-<form action="/Analyze" method="get">
+<form action="/Analyze" method="get">{% csrf_token %}
 
 <div class="mb-3">
   <label for="exampleFormControlTextarea1" class="form-label">Enter your text here and let the Text Utils do the magic</label>
