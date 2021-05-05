@@ -2,13 +2,6 @@ from django.http import HttpResponse
 from django.shortcuts import render
 
 
-#
-# def index(request):
-#     return HttpResponse('''<h1>PERSONEL NAVIGATOR</h1> <h1>Saras</h1> <a href="https://www.facebook.com/saras.singh.104"> This is my facebook profile</a>>''')
-#
-#
-# def about(request):
-#     return HttpResponse("about SARAS")
 def index(request):
     return render(request, 'index.html')
 
@@ -57,9 +50,4 @@ def Analyze(request):
     else:
         return HttpResponse("Error")
 
-# def capitalizefirst(request):
-#     return HttpResponse("capitalize first")
-#
-#
-# def newlineremove(request):
-#     return HttpResponse("newline remover")
+
